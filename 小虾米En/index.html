@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name='viewport'
+    content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' />
+  <meta name="renderer" content="webkit" />
+  <meta name='apple-mobile-web-app-capable' content='yes' />
+  <meta name='full-screen' content='true' />
+  <meta name='x5-fullscreen' content='true' />
+  <meta name='360-fullscreen' content='true' />
+  <meta name="laya" screenorientation="portrait" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv='expires' content='0' />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="stylesheet" href="./css/common.css" />
+  <link rel="stylesheet" href="./css/index.css?type=1.1.5" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="automatic_login_ns">
+      <div class="login_logo_ns">
+        <img src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/back.png" class="back_ns" />
+      </div>
+      <div class="login_inp_ns">
+        <div class="select_use">
+          <span class="sel-img iconfont"></span>
+          <span class="sel-title"></span>
+          <span class="sel-down iconfont icon-xiala"></span>
+          <span class="sel-up iconfont icon-xiala"></span>
+        </div>
+        <div class="down_list">
+          <ul class="cuihua"></ul>
+        </div>
+        <input type="button" name="" id="enter_game_ns" value="" />
+        <div class="select_title_ns">
+          <div class="dashed_line"></div>
+          <div class="handle_head_title"></div>
+        </div>
+        <ul class="handle_icon clearfix">
+          <li>
+            <div class="handle handle1">
+              <a class="fbLogin">
+                <img src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/Facebook.png" />
+              </a>
+            </div>
+            <p class="handle_icon_facebook"></p>
+          </li>
+          <li>
+            <div class="handle handle2">
+              <i class="iconfont icon-94"></i>
+            </div>
+            <p class="handle_icon_sw"></p>
+          </li>
+          <li style="float: right;">
+            <div class="handle handle3">
+              <i class="iconfont icon-people"></i>
+            </div>
+            <p class="handle_icon_pt"></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="login_inp">
+      <div class="login_logo_inp">
+        <img src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/back.png" class="back_ns" />
+      </div>
+      <div class="login_dl_ns">
+        <div class="login_acnum_ns">
+          <i class="iconfont icon-people"></i>
+          <input type="text" id="login_username_ns" placeholder="" class="login_username_ns" />
+          <label for="login_username_ns" class="clear_ns"><img
+              src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/close.png" /></label>
+        </div>
+        <div class="login_acnum_ns">
+          <i class="iconfont icon-shurumima"></i>
+          <input type="password" id="login_userpassword_ns" placeholder="" class="login_username_ns" />
+          <label for="login_userpassword_ns" class="show_ns"><img
+              src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/ear_blue.png" /></label>
+        </div>
+        <div class="forget_password_ns">
+          <span class=""></span>
+        </div>
+        <input type="button" value="로그인" class="login_button_ns" />
+        <p class="p_span">
+          <span class="click_registered_ns"></span>
+          <span class="account_management_ns"></span>
+        </p>
+      </div>
+    </div>
+    <div class="forget_password">
+      <div class="login_logo_forget">
+        <img src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/back.png" class="back_ns" />
+      </div>
+      <div class="forget_password_ns">
+        <div class="login_acnum_ns">
+          <i class="iconfont icon-people"></i>
+          <input type="text" id="retrieve_username_ns" placeholder="" class="login_username_ns" />
+          <label for="retrieve_username_ns" class="clear_ns"><img
+              src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/close.png" /></label>
+        </div>
+        <div class="login_acnum_ns">
+          <i class="iconfont icon-tubiao209"></i>
+          <input type="text" id="retrieve_email_ns" placeholder="" class="login_username_ns" />
+          <label for="retrieve_email_ns" class="clear_ns"><img
+              src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/close.png" /></label>
+        </div>
+        <input type="button" value="" class="retrieve_password_ns" />
+      </div>
+    </div>
+    <div class="login_zc">
+      <div class="login_logo_zc">
+        <img src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/back.png" class="back_ns" />
+      </div>
+      <div class="login_zc_ns">
+        <div class="login-sub">
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-people"></i>
+            <input type="text" id="registered_username_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_username_ns" class="clear_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/close.png" /></label>
+          </div>
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-shurumima"></i>
+            <input type="password" id="registered_userpassword_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_userpassword_ns" class="show_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/ear_blue.png" /></label>
+          </div>
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-shurumima"></i>
+            <input type="password" id="registered_repeatpassword_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_repeatpassword_ns" class="show_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/ear_blue.png" /></label>
+          </div>
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-tubiao209"></i>
+            <input type="text" id="registered_email_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_email_ns" class="clear_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/close.png" /></label>
+          </div>
+        </div>
+        <div class="user_agree_ns">
+          <input type="radio" value="1" id="agree_ns" checked="checked" hidden="hidden" />
+          <label for="agree_ns" class="advice_nsw checked"></label>
+          <span class="user_agree_rule"></span>
+          <span class="toRule" style="color: aquamarine;"></span>
+        </div>
+        <input type="button" value="" class="registered_button_ns" />
+      </div>
+    </div>
+    <div class="account_management">
+      <div class="login_logo_account">
+        <img src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/back.png" class="back_ns" />
+      </div>
+      <div class="login_way_ns">
+        <div class="account1_ns"></div>
+        <div class="account2_ns"></div>
+        <div class="account3_ns"></div>
+      </div>
+    </div>
+    <div class="account_changePass">
+      <div class="login_logo_changePass">
+        <img src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/back.png" class="back_ns" />
+      </div>
+      <div class="account_changePass_ns">
+        <div class="login-sub">
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-people"></i>
+            <input type="text" id="changePass_phone_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_username_ns" class="clear_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/close.png" /></label>
+          </div>
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-shurumima"></i>
+            <input type="text" id="changePass_userpassword_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_userpassword_ns" class="clear_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/close.png" /></label>
+          </div>
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-shurumima"></i>
+            <input type="password" id="changePass_newpassword_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_repeatpassword_ns" class="show_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/ear_blue.png" /></label>
+          </div>
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-tubiao209"></i>
+            <input type="password" id="changePass_repeatpassword_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_email_ns" class="show_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/ear_blue.png" /></label>
+          </div>
+        </div>
+        <input type="button" value="" class="changePass_button_ns" />
+      </div>
+    </div>
+    <div class="account_play">
+      <div class="login_logo_play">
+        <img src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/back.png" class="back_ns" />
+      </div>
+      <div class="account_play_ns">
+        <div class="login-sub">
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-people"></i>
+            <input type="text" id="play_username_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_username_ns" class="clear_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/close.png" /></label>
+          </div>
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-shurumima"></i>
+            <input type="password" id="play_userpassword_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_userpassword_ns" class="show_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/ear_blue.png" /></label>
+          </div>
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-shurumima"></i>
+            <input type="password" id="play_repeatpassword_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_repeatpassword_ns" class="show_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/ear_blue.png" /></label>
+          </div>
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-tubiao209"></i>
+            <input type="text" id="play_email_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_email_ns" class="clear_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/close.png" /></label>
+          </div>
+        </div>
+        <input type="button" value="" class="play_button_ns" />
+      </div>
+    </div>
+    <div class="account_fb">
+      <div class="login_logo_fb">
+        <img src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/back.png" class="back_ns" />
+      </div>
+      <div class="account_fb_ns">
+        <div class="login-sub">
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-people"></i>
+            <input type="text" id="fb_username_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_username_ns" class="clear_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/close.png" /></label>
+          </div>
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-shurumima"></i>
+            <input type="password" id="fb_userpassword_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_userpassword_ns" class="show_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/ear_blue.png" /></label>
+          </div>
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-shurumima"></i>
+            <input type="password" id="fb_repeatpassword_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_repeatpassword_ns" class="show_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/ear_blue.png" /></label>
+          </div>
+          <div class="login_acnum_ns">
+            <i class="iconfont icon-tubiao209"></i>
+            <input type="text" id="fb_email_ns" placeholder="" class="login_username_ns" />
+            <label for="registered_email_ns" class="clear_ns"><img
+                src="//awscdnfxxmenone.damoregame.com/gc_file/webLogin/login/img/close.png" /></label>
+          </div>
+        </div>
+        <input type="button" value="" class="fb_button_ns" />
+      </div>
+    </div>
+    <div class="bg">
+      <div class="close"></div>
+      <div class="tip">Chính sách bảo mật</div>
+      <div class="content">
+        <div class="left-conten"></div>
+        <div class="right-content"></div>
+      </div>
+      <div class="raido">
+        <div class="left-btn"></div>
+        <div class="right-btn">đồng ý</div>
+        <div class="left-raido"></div>
+        <div class="right-raido"></div>
+      </div>
+      <div class="arrbtn"></div>
+    </div>
+    <div class="quitLogion">
+      <div class="login_Title">
+        <span class="title_name"></span>
+        <span class="title_loding"></span>
+      </div>
+      <div class="quit_btn"></div>
+    </div>
+    <div class="showad"></div>
+    <div class="loading"></div>
+  </div>
+</body>
+
+</html>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/language.js"></script>
+<script src="./js/useLanguage.js"></script>
+<script src="./js/api.js"></script>
+<script src="./js/checkStatu.js"></script>
+<script src="./js/getWidth.js"></script>
+<script src="./js/formatting.js"></script>
+<script src="./js/config.js"></script>
+<script src="./js/login.js"></script>
+<script src="./js/index.js"></script>
+
+

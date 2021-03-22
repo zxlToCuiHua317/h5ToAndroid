@@ -1,0 +1,13 @@
+"use strict";
+
+var Api = {
+    userLogin_api: "//ptflzfzbga.icbem53.com/kntuzy/login/userLogin.do", //登录
+    userMobileAuth_api: "//ptflzfzbga.icbem53.com/kntuzy/login/userMobileAuth.do", // 获取验证信息
+    getPasswdStep1_api: "//ptflzfzbga.icbem53.com/kntuzy/login/getPasswdStep1.do", // 找回密码
+    userRegister_api: "//ptflzfzbga.icbem53.com/kntuzy/login/userRegister.do", // 会员注册
+    userFastLogin_api: "//ptflzfzbga.icbem53.com/kntuzy/login/userFastLogin.do", // 试玩
+    userChangePassword_api: "//ptflzfzbga.icbem53.com/kntuzy/login/userChangePassword.do", //修改密码
+    fbuserLoginForMobile_api: "//ptflzfzbga.icbem53.com/gedmwo/port/fbuserLoginForMobile.do", // facebook 登录
+    userPartnerLogin_api: "//ptflzfzbga.icbem53.com/kntuzy/login/userPartnerLogin.do",
+    userUpgradeAccount_api: "//ptflzfzbga.icbem53.com/kntuzy/login/userUpgradeAccount.do"
+};
